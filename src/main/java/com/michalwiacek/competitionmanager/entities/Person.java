@@ -9,12 +9,12 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @Data
-class Person {
+public abstract class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long personId;
-    private String firstName;
-    private String lastName;
+    private String name;
+    private String surname;
 
 }

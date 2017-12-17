@@ -19,8 +19,10 @@ public class Competition {
     private int matAmount;
 
     private String organiser;
-
+    private String city;
     @ManyToMany
     private List<Club> clubList;
+    @ManyToMany
+    private List<Athlete> athleteList;
 
 }

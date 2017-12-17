@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @EqualsAndHashCode(callSuper = true)
-class Coach extends Person {
+public class Coach extends Person {
 
     @ManyToOne
     private Club club;
