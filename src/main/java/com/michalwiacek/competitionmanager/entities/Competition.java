@@ -17,6 +17,7 @@ public class Competition {
     private LocalDate enrollmentEnd;
     private int athleteLimit;
     private int matAmount;
+    private String name;
 
     private String organiser;
     private String city;

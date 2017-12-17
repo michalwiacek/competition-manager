@@ -9,5 +9,5 @@ import java.util.List;
 public interface AthleteRepository extends JpaRepository<Athlete, Long> {
 
     List<Athlete> getByNameAndSurname(@Param("name")String name,@Param("surname") String surname);
-    List<Athlete> findAll();
+    //List<Athlete> findAll();
 }

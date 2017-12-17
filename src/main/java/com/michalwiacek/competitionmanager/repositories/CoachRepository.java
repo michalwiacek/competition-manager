@@ -8,5 +8,5 @@ import java.util.List;
 
 public interface CoachRepository extends JpaRepository<Coach, Long>{
     List<Coach> getByNameAndSurname(@Param("name")String name, @Param("surname") String surname);
-    List<Coach> findAll();
+    //List<Coach> findAll();
 }
