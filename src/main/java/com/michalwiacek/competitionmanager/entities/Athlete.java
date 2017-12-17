@@ -3,10 +3,7 @@ package com.michalwiacek.competitionmanager.entities;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -16,8 +13,10 @@ public class Athlete extends Person{
     @ManyToOne
     private Club club;
     private Double weight;
-
-    @Enumerated(value = EnumType.STRING)
-    private AthleteAgeCategory athleteAgeCategory;
-
+    @ManyToOne
+    private WeightCategory weightCategory;
+    @ManyToOne
+    private AgeCategory ageCategory;
+    @ManyToOne
+    private Discipline discipline;
 }

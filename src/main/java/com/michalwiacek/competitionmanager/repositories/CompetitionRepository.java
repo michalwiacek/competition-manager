@@ -9,5 +9,5 @@ import java.util.List;
 
 public interface CompetitionRepository extends JpaRepository<Competition,Long>{
     List<Competition> findByName(@Param("name") String name);
-    List<Competition> findBYDate(@Param("date") LocalDate date);
+    //List<Competition> findBYDate(@Param("date") LocalDate date);
 }

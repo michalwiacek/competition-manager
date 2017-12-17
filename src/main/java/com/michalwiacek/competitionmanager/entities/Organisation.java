@@ -15,6 +15,6 @@ public abstract class Organisation {
     private long id;
     private String name;
     private String adress;
-    @ManyToMany
+    @OneToMany
     private List<Competition> competitions;
 }
