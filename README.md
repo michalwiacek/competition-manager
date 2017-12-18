@@ -32,11 +32,3 @@ __Planned__
 ## Technical details
 
 * Application is written using Java 8, Spring Boot, Liquibase, Akka and JPA, running on PostgreSQL database.
-
-More details about contributing and how project is organized please check
-
-# [Development and contribution guidelines Wiki](https://github.com/jvm-bloggers/jvm-bloggers/wiki)
-
-## Contributors
-
-#### Contact
