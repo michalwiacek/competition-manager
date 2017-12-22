@@ -6,16 +6,16 @@
 
     <parent>
         <groupId>com.michalwiacek</groupId>
-        <artifactId>competition-manager</artifactId>
+        <artifactId>tournament-manager</artifactId>
         <version>0.0.1</version>
     </parent>
 
     <groupId>com.michalwiacek</groupId>
-    <artifactId>competition-manager-frontend</artifactId>
+    <artifactId>tournament-manager-frontend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Competition Manager Frontend - Angular</name>
+    <name>Tournament Manager Frontend - Angular</name>
     <description>Frontend based on Angular 5</description>
 
     <build>

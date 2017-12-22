@@ -6,12 +6,12 @@
 
     <parent>
         <groupId>com.michalwiacek</groupId>
-        <artifactId>competition-manager</artifactId>
+        <artifactId>tournament-manager</artifactId>
         <version>0.0.1</version>
     </parent>
 
     <groupId>com.michalwiacek</groupId>
-    <artifactId>competition-manager-backend</artifactId>
+    <artifactId>tournament-manager-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -81,6 +81,11 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
             <version>2.0.2.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.9</version>
         </dependency>
 
     </dependencies>
