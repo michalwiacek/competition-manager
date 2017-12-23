@@ -6,6 +6,7 @@ import com.michalwiacek.tournamentmanager.entities.athlete.Athlete;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -13,8 +14,8 @@ import java.util.Set;
 public class Club extends Organisation {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "club")
-    private Set<Athlete> athletes;
+    private List<Athlete> athletes;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "club")
-    private Set<Coach> coaches;
+    private List<Coach> coaches;
 }

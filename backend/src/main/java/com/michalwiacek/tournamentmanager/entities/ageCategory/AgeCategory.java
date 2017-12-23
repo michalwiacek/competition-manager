@@ -14,7 +14,7 @@ public class AgeCategory {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "discipline_id")
+    @JoinColumn(name = "sport_id")
     private Sport sport;
     private String name;
     private Integer minAge, maxAge;

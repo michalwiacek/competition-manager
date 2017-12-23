@@ -18,13 +18,13 @@ public class Sport {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    @OneToMany(mappedBy = "discipline", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "sport", cascade = CascadeType.ALL, orphanRemoval = true)
     Set<AgeCategory> ageCategories;
-    @OneToMany(mappedBy = "discipline")
+    @OneToMany(mappedBy = "sport")
     Set<WeightCategory> weightCategories;
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "discipline")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "sport")
     Set<Athlete> athleteList;
     @OneToMany
-    @JoinColumn(name = "discipline_tournament_id")
+    @JoinColumn(name = "sport_tournament_id")
     List<Tournament> tournaments;
 }

@@ -18,7 +18,7 @@ public class WeightCategory {
     private Integer minWeight, maxWeight;
     private Sex sex;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "discipline_id")
+    @JoinColumn(name = "sport_id")
     private Sport sport;
 
 }

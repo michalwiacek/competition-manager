@@ -24,4 +24,15 @@ public class Athlete extends Person {
     private AgeCategory ageCategory;
     @ManyToOne
     private Sport sport;
+
+    @Override
+    public String toString() {
+        return "Athlete{" +
+                "club=" + club +
+                ", weight=" + weight +
+                ", weightCategory=" + weightCategory +
+                ", ageCategory=" + ageCategory +
+                ", sport=" + sport +
+                '}';
+    }
 }
