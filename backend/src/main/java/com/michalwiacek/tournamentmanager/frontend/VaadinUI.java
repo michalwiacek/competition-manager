@@ -11,8 +11,8 @@ import com.vaadin.ui.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 
-@SpringUI(path = "/")
-@Theme("valo-default")
+//@SpringUI(path = "/")
+//@Theme("valo-default")
 public class VaadinUI extends UI {
 
     private final AthleteRepository repo;
