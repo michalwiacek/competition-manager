@@ -4,6 +4,9 @@
 
 [![Build Status](https://travis-ci.org/competition-manager/competition-manager.svg?branch=master)](https://travis-ci.org/competition-manager/competition-manager)  [![codecov](https://codecov.io/gh/competition-manager/competition-manager/branch/master/graph/badge.svg)](https://codecov.io/gh/competition-manager/competition-manager)
 
+
+
+#DO NOT READ
 ## Overview
 
 The goal of the **competition-manager/competition-manager** project is to provide support for competition organisers.
