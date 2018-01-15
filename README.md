@@ -6,7 +6,7 @@
 
 
 
-#DO NOT READ
+# DO NOT READ THIS
 ## Overview
 
 The goal of the **competition-manager/competition-manager** project is to provide support for competition organisers.
