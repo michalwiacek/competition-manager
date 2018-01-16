@@ -2,7 +2,7 @@
 
     Now its easy to invite people to your Judo, BJJ, Wrestling competition.
 
-[![Build Status](https://travis-ci.org/competition-manager/competition-manager.svg?branch=master)](https://travis-ci.org/competition-manager/competition-manager)  [![codecov](https://codecov.io/gh/competition-manager/competition-manager/branch/master/graph/badge.svg)](https://codecov.io/gh/competition-manager/competition-manager)
+[![Build Status](https://travis-ci.org/michalwiacek/competition-manager.svg?branch=master)](https://travis-ci.org/michalwiacek/competition-manager)  [![codecov](https://codecov.io/gh/michalwiacek/competition-manager/branch/master/graph/badge.svg)](https://codecov.io/gh/michalwiacek/competition-manager)
 
 
 
